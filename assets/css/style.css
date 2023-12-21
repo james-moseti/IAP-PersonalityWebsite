@@ -565,10 +565,6 @@ textarea.input-field {
 
 
 
-  /**
-   * HERO
-   */
-
   .hero { padding-block-start: calc(var(--section-padding) + 60px); }
 
   .hero .container {
@@ -583,10 +579,6 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
-
   .about .wrapper {
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -594,11 +586,6 @@ textarea.input-field {
 
   .about .grid-list { grid-template-columns: repeat(4, 1fr); }
 
-
-
-  /**
-   * PROJECT
-   */
 
   .project .grid-list {
     grid-template-columns: 1fr 1fr;
@@ -622,11 +609,6 @@ textarea.input-field {
   .project-card-2 .card-content { order: 1; }
 
 
-
-  /**
-   * CONTACT
-   */
-
   .contact-card {
     grid-template-columns: 0.8fr 1fr;
     align-items: center;
@@ -637,71 +619,28 @@ textarea.input-field {
 
 
 
-
-
-/**
- * responsive for large than 1200px screen
- */
-
 @media (min-width: 1200px) {
-
-  /**
-   * REUSED STYLE
-   */
 
   .container,
   .header { max-width: 1140px; }
 
-
-
-  /**
-   * ABOUT
-   */
-
   .about .grid-list { gap: 50px; }
-
-
-
-  /**
-   * CONTACT
-   */
 
   .contact-card { gap: 150px; }
 
 }
 
 
-
-
-
-/**
- * responsive for large than 1400px screen
- */
-
 @media (min-width: 1400px) {
-
-  /**
-   * REUSED STYLE
-   */
 
   .container,
   .header { max-width: 1320px; }
 
 
 
-  /**
-   * HERO
-   */
-
   .hero .container { grid-template-columns: 1fr 0.8fr; }
 
   .hero .section-text { --fs-5: 2.4rem; }
-
-
-
-  /**
-   * ABOUT
-   */
 
   .about .wrapper { gap: 100px; }
 
